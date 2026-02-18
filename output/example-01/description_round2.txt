@@ -1,0 +1,20 @@
+A horizontal scientific graphical abstract divided into three distinct panels flowing left to right, on a pure white background. The overall style is flat vector with precise minimal line weights, no gradients, no glow effects, and no 3D. All typography uses a clean sans-serif font family. The color palette is restricted to: primary dark blue (#0A3A77), accent orange (#D97A1B), neutral gray (#7A7A7A), accent red (#C53030), black (#000000), and white (#FFFFFF).
+
+LEFT PANEL — "The Challenge" (title in semibold dark blue above the panel):
+A soft cloud shape outlined in dark blue (#0A3A77) with 2px stroke and no fill, positioned at the bottom of the panel. Above the cloud (not inside it), arranged in a horizontal row with even spacing, are three small pathogen icons rendered in flat gray (#7A7A7A) fill with thin black outlines: (1) a spherical virus with surface spikes labeled "Flu" beneath it in small regular black sans-serif, (2) a rod-shaped bacterium labeled "Superbug" beneath it, and (3) an icosahedral virus shape labeled "Monkeypox" beneath it. Inside the cloud shape, centered and slightly larger than the other icons, is an abstract unknown pathogen symbol filled in accent orange (#D97A1B) with a 2px black outline — this represents novel/unknown threats and should be visually prominent. Below the orange symbol inside the cloud, the text reads "Emerging Threats (Natural & Engineered)" in semibold dark blue.
+
+CENTER PANEL — "Combined Threat Agnostic Detection" (title in semibold dark blue above the panel):
+At the top center, a funnel icon outlined in dark blue (#0A3A77), 2px stroke, no fill. Directly below the funnel, the label "Early Diagnostics Focus" in medium weight dark blue text, centered.
+
+Two horizontal detection streams run from left to right below the funnel:
+
+Upper stream — labeled "Sequencing" in semibold dark blue on the left, with subtext "Genomic identity" in regular gray (#7A7A7A) below the label. This stream contains from left to right: a prominent DNA double helix drawn with clear black strokes and no fill (at least 40px tall); the letters "A T C G" rendered in accent red (#C53030) medium weight sans-serif, well spaced; and a minimal phylogenetic tree diagram showing a simple branching structure (3-4 branches splitting from a common root, with small circular terminal nodes) drawn in gray (#7A7A7A) strokes. A thin 2px dark blue horizontal connecting line runs through these elements.
+
+Lower stream — labeled "Spectroscopy" in semibold dark blue on the left, with subtext "Physico-chemical signatures" in regular gray below. This stream contains from left to right: a diagonal light beam line in accent orange (#D97A1B) 2px stroke hitting a small rectangular sample block drawn in black outline; and a simple spectral absorption plot with gray (#7A7A7A) axes and multiple sharp peaks drawn in dark blue (#0A3A77) 2px stroke. A thin 2px dark blue horizontal connecting line runs through these elements.
+
+Both streams converge at the right edge of the center panel into a server rack icon with white fill and 2px black outline. The label "Curated, integrated data architecture" appears in regular black sans-serif above the server icon.
+
+RIGHT PANEL — "The Outcome" (title in semibold dark blue above the panel):
+A bold 3px accent orange (#D97A1B) arrow flows rightward from the server rack icon to a brain-with-gear icon (representing AI/ML). The brain icon has white fill and 2px dark blue (#0A3A77) outline. To the right of the brain icon, a shield icon with no fill and 2px dark blue outline represents protection/readiness. Below the brain and shield icons, centered, the caption reads "AI-readiness & expedient response" in medium weight black sans-serif.
+
+The overall composition has generous white space between panels with strong left-to-right narrative flow. No figure title or caption text is included in the image. Panel dividers are subtle thin gray vertical lines or just whitespace separation.

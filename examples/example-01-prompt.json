@@ -1,0 +1,247 @@
+{
+  "graphic_spec": {
+    "title": "Scientific Graphical Abstract",
+    "canvas": {
+      "background": "white",
+      "orientation": "horizontal",
+      "style": {
+        "type": "flat_vector",
+        "line_weight": "precise_minimal",
+        "color_palette": {
+          "primary_blue": "#0A3A77",
+          "accent_orange": "#D97A1B",
+          "neutral_gray": "#7A7A7A",
+          "accent_red": "#C53030",
+          "black": "#000000",
+          "white": "#FFFFFF"
+        },
+        "no_gradients": true,
+        "no_glow": true,
+        "no_3d": true,
+        "typography": {
+          "font_family": "clean_sans_serif",
+          "case": "title_and_label_case",
+          "weights": {
+            "label": "medium",
+            "caption": "regular",
+            "heading": "semibold"
+          }
+        },
+        "layout": {
+          "grid_based": true,
+          "white_space": "generous",
+          "alignment": "strong_left_to_right_flow"
+        }
+      }
+    },
+
+    "panels": [
+      {
+        "id": "left_panel",
+        "title": "The Challenge",
+        "panel_position": "left",
+        "elements": [
+          {
+            "type": "cloud_shape",
+            "id": "emerging_threats_cloud",
+            "style": {
+              "fill": "none",
+              "stroke": "#0A3A77",
+              "stroke_width": 2
+            },
+            "label": {
+              "text": "Emerging Threats (Natural & Engineered)",
+              "position": "center"
+            }
+          },
+          {
+            "type": "icon_group",
+            "id": "pathogen_icons",
+            "layout": "horizontal_row",
+            "position": "above_cloud_label",
+            "icons": [
+              {
+                "type": "virus_icon",
+                "id": "flu_virus_icon",
+                "label": "Flu",
+                "style": { "fill": "#7A7A7A", "stroke": "#000000" }
+              },
+              {
+                "type": "bacterium_icon",
+                "id": "superbug_icon",
+                "label": "Superbug",
+                "style": { "fill": "#7A7A7A", "stroke": "#000000" }
+              },
+              {
+                "type": "icosahedral_virus_icon",
+                "id": "monkeypox_icon",
+                "label": "Monkeypox",
+                "style": { "fill": "#7A7A7A", "stroke": "#000000" }
+              }
+            ]
+          },
+          {
+            "type": "symbol",
+            "id": "unknown_pathogen_symbol",
+            "description": "Generic abstract pathogen symbol, slightly larger than other icons",
+            "position": "below_pathogen_icons_centered",
+            "style": {
+              "fill": "#D97A1B",
+              "stroke": "#000000",
+              "stroke_width": 2
+            }
+          }
+        ]
+      },
+
+      {
+        "id": "middle_panel",
+        "title": "Combined Threat Agnostic Detection",
+        "panel_position": "center",
+        "elements": [
+          {
+            "type": "icon",
+            "id": "funnel_icon",
+            "icon_type": "funnel",
+            "label": "Early Diagnostics Focus",
+            "position": "center_top",
+            "style": {
+              "fill": "none",
+              "stroke": "#0A3A77",
+              "stroke_width": 2
+            }
+          },
+
+          {
+            "type": "stream",
+            "id": "sequencing_stream",
+            "stream_position": "upper_horizontal",
+            "label": "Sequencing",
+            "subtext": "Genomic identity",
+            "elements": [
+              {
+                "type": "dna_helix",
+                "id": "dna_double_helix",
+                "style": { "stroke": "#000000", "fill": "none" }
+              },
+              {
+                "type": "text",
+                "id": "atcg_letters",
+                "content": "A T C G",
+                "style": { "color": "#C53030", "font_weight": "medium" }
+              },
+              {
+                "type": "tree_diagram",
+                "id": "phylogenetic_tree",
+                "description": "Simple branch-like tree with minimal nodes",
+                "style": { "stroke": "#7A7A7A", "fill": "none" }
+              }
+            ],
+            "style": {
+              "stream_line_color": "#0A3A77",
+              "stream_line_weight": 2
+            }
+          },
+
+          {
+            "type": "stream",
+            "id": "spectroscopy_stream",
+            "stream_position": "lower_horizontal",
+            "label": "Spectroscopy",
+            "subtext": "Physico-chemical signatures",
+            "elements": [
+              {
+                "type": "light_beam",
+                "id": "spectroscopy_beam",
+                "description": "Diagonal or horizontal beam hitting a small sample block",
+                "style": {
+                  "stroke": "#D97A1B",
+                  "fill": "none",
+                  "stroke_width": 2
+                }
+              },
+              {
+                "type": "spectral_plot",
+                "id": "spectral_graph",
+                "description": "Simple graph with peaks",
+                "style": {
+                  "stroke": "#0A3A77",
+                  "fill": "none",
+                  "axis_color": "#7A7A7A"
+                }
+              }
+            ],
+            "style": {
+              "stream_line_color": "#0A3A77",
+              "stream_line_weight": 2
+            }
+          },
+
+          {
+            "type": "icon",
+            "id": "data_architecture_server",
+            "icon_type": "server_rack",
+            "label": "Curated, integrated data architecture",
+            "label_position": "left_of_icon",
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": "#000000",
+              "stroke_width": 2
+            },
+            "position": "right_center"
+          }
+        ]
+      },
+
+      {
+        "id": "right_panel",
+        "title": "The Outcome",
+        "panel_position": "right",
+        "elements": [
+          {
+            "type": "arrow",
+            "id": "database_to_ai_arrow",
+            "direction": "right",
+            "origin": "data_architecture_server",
+            "destination": "ai_brain_icon",
+            "style": {
+              "stroke": "#D97A1B",
+              "stroke_width": 3
+            }
+          },
+          {
+            "type": "icon",
+            "id": "ai_brain_icon",
+            "icon_type": "brain_with_gear",
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": "#0A3A77",
+              "stroke_width": 2
+            }
+          },
+          {
+            "type": "icon",
+            "id": "shield_icon",
+            "icon_type": "shield",
+            "position": "right_of_brain",
+            "style": {
+              "fill": "none",
+              "stroke": "#0A3A77",
+              "stroke_width": 2
+            }
+          },
+          {
+            "type": "caption",
+            "id": "ai_readiness_caption",
+            "text": "AI-readiness & expedient response",
+            "position": "below_brain_and_shield",
+            "style": {
+              "color": "#000000",
+              "font_weight": "medium"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+.env
+.secrets
+.claude/
+__pycache__/
+*.pyc
+
+# Keep only canonical sample output in-repo.
+output/*
+!output/example-01/
+!output/example-01/**
+
+# Project-specific work (prompts, outputs, notes).
+projects/
+
+# Ephemeral local CLI output.
+nanobanana-output/

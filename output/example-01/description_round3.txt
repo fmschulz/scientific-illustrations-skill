@@ -1,0 +1,25 @@
+A horizontal scientific graphical abstract divided into three distinct panels flowing left to right. CRITICAL: The background must be PURE WHITE (#FFFFFF) across ALL panels — no gray, no light gray, no off-white. The overall style is flat vector with precise minimal line weights, no gradients, no glow effects, and no 3D. All typography uses a clean sans-serif font family. The color palette is restricted to: primary dark blue (#0A3A77), accent orange (#D97A1B), neutral gray (#7A7A7A), accent red (#C53030), black (#000000), and white (#FFFFFF).
+
+LEFT PANEL — "The Challenge" (title in semibold dark blue above the panel):
+At the top, arranged in a horizontal row with even spacing, are three small pathogen icons rendered in flat gray (#7A7A7A) fill with thin black outlines: (1) a spherical virus with surface spikes labeled "Flu" beneath it in small regular black sans-serif, (2) a rod-shaped bacterium labeled "Superbug" beneath it, and (3) an icosahedral virus shape labeled "Monkeypox" beneath it. Below the three pathogen icons, a soft cloud shape outlined in dark blue (#0A3A77) with 2px stroke and no fill. Inside the cloud shape, centered and visually prominent, is an abstract unknown pathogen symbol (like a starburst with a question mark) filled in accent orange (#D97A1B) with a 2px black outline. Below the orange symbol inside the cloud, the text reads "Emerging Threats (Natural & Engineered)" in semibold dark blue sans-serif.
+
+CENTER PANEL — "Combined Threat Agnostic Detection" (title in semibold dark blue above the panel):
+At the top center, a funnel icon outlined in dark blue (#0A3A77), 2px stroke, no fill. Directly below the funnel, the label "Early Diagnostics Focus" in medium weight dark blue text, centered.
+
+Two horizontal detection streams run from left to right below the funnel:
+
+Upper stream — labeled "Sequencing" in semibold dark blue on the left, with subtext "Genomic identity" in regular gray (#7A7A7A) below. Contains from left to right: a prominent DNA double helix drawn with clear black strokes; the letters "A T C G" in accent red (#C53030) medium weight sans-serif; and a minimal PHYLOGENETIC TREE — this must look like a biological dendrogram/cladogram: a single root line on the left that branches into 3-4 forking branches going right, with small dots at the leaf tips. NOT a circuit board or node diagram. Drawn in gray (#7A7A7A) strokes. A thin 2px dark blue horizontal connecting line runs through these elements.
+
+Lower stream — labeled "Spectroscopy" in semibold dark blue on the left, with subtext "Physico-chemical signatures" in regular gray below. Contains from left to right: a spectroscopy setup showing a diagonal beam of light (drawn as a narrow orange (#D97A1B) triangular beam or line) hitting a small rectangular sample cuvette (black outline, white fill); and then a spectral absorption plot showing a small graph with gray axes and 3-4 sharp absorption peaks drawn as upward spikes in dark blue (#0A3A77). A thin 2px dark blue horizontal connecting line runs through these elements.
+
+Both streams converge at the right edge of the center panel into a server rack icon (rectangular with horizontal lines suggesting rack shelves) with white fill and 2px black outline. The label "Curated, integrated data architecture" appears above the server icon in regular black sans-serif.
+
+RIGHT PANEL — "The Outcome" (title in semibold dark blue above the panel):
+A bold 3px accent orange (#D97A1B) filled arrow flows rightward from the server rack to a brain-with-gear icon (a brain outline with a small gear inside or overlapping). The brain icon has white fill and 2px dark blue (#0A3A77) outline. To the right of the brain icon, a shield icon with no fill and 2px dark blue outline. Below the brain and shield, centered, the caption reads "AI-readiness & expedient response" in medium weight black sans-serif.
+
+IMPORTANT STYLING RULES:
+- Background is PURE WHITE everywhere, no gray panels
+- Panels are separated by generous whitespace only (no borders, no colored backgrounds)
+- Strong left-to-right narrative flow
+- No figure title or caption text in the image
+- The phylogenetic tree MUST look like a biological tree/dendrogram, not a circuit diagram
